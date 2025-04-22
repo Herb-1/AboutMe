@@ -16,8 +16,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
     .info-box {
-      padding: 15px;
-      line-height: 1.6;
+      padding: 20px;
+      line-height: 1.8;
+      min-width: 400px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .info-label {
+      min-width: 80px;
+      font-weight: 500;
+    }
+    .info-value {
+      flex: 1;
     }
     .info-box span {
       display: inline-block;
@@ -87,10 +103,22 @@
           <div class="event-details">
             → Các thông tin cơ bản ở đây nè :
             <div class="info-box">
-              <span>Where</span>: Pleiku, Vietnam<br>
-              <span>SĐT</span>: 0369148060<br>
-              <span>Email</span>: nguyenvutruong63@gmail.com<br>
-              <span>What</span>: Busy
+              <div class="info-item">
+                <span class="info-label">Where</span>
+                <span class="info-value">: Pleiku, Vietnam</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">SĐT</span>
+                <span class="info-value">: 0369148060</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email</span>
+                <span class="info-value">: nguyenvutruong63@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">What</span>
+                <span class="info-value">: Busy</span>
+              </div>
             </div>
           </div>
         </div>  
